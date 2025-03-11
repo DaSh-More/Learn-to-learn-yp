@@ -28,7 +28,7 @@
 .logo_place_header {
   top: 30px;
   left: 64px;
-  background-image: url(/images/logo_place_header.svg);
+  background-image: url(images/logo_place_header.svg);
 }
 
 .header {
@@ -40,7 +40,6 @@
   min-height: 600px;
   max-height: 756px;
   background-color: var(--background-light);
-  /* выше установили ограничения для секции */
 }
 
 .header__title {
