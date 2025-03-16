@@ -205,6 +205,7 @@
 .feynman {
   position: relative;
   display: flex;
+  box-sizing: border-box;
   padding: 100px 0 0;
   flex-direction: column;
   row-gap: 70px;
