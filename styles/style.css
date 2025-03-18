@@ -31,6 +31,12 @@
   background-image: url(../images/logo_place_header.svg);
 }
 
+.logo_place_footer {
+  /* top: 30px;
+  left: 64px; */
+  background-image: url(../images/logo_place_footer.svg);
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -263,4 +269,63 @@
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
+}
+
+.footer {
+  box-sizing: border-box;
+  min-height: 350px;
+  padding: 60px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-dark);
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  position: relative;
+  flex-basis: 50%;
+  color: white;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 0;
+  padding: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  display: block;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 20px 0 16px;
+}
+
+.footer__column-link {
+  display: block;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
